@@ -1,4 +1,4 @@
-import { DbUser, DbShout, DbImage } from "./types.ts";
+import { DbUser, DbShout, DbImage } from "./types";
 
 export const users: DbUser[] = [
   {
