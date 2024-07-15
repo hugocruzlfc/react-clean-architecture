@@ -6,7 +6,7 @@ export const users: DbUser[] = [
     type: "user",
     attributes: {
       handle: "darklord",
-      avatar: "/cdn/avatars/vader1.jpeg",
+      avatar: "/cdn/avatars/vader1.jpg",
       info: "I am the dark lord, the root of all evil. 'Tis I who brought the world to its knees. In blood I was born, and in blood I shall have my vengeance.",
       numShoutsPastDay: 3,
       blockedUserIds: ["user-2"],
@@ -19,7 +19,7 @@ export const users: DbUser[] = [
     attributes: {
       handle: "prettypinkpony",
       numShoutsPastDay: 4,
-      avatar: "/cdn/avatars/vader2.jpeg",
+      avatar: "/cdn/avatars/vader2.jpg",
       info: "I am Darth Vader, the root of all evil. 'Tis I who brought the world to its knees. In blood I was born, and in blood I shall have my vengeance.",
       blockedUserIds: ["user-1"],
       followsUserIds: ["user-3"],
@@ -30,7 +30,7 @@ export const users: DbUser[] = [
     type: "user",
     attributes: {
       handle: "fcku",
-      avatar: "/cdn/avatars/vader3.jpeg",
+      avatar: "/cdn/avatars/vader3.jpg",
       numShoutsPastDay: 2,
       blockedUserIds: [],
       followsUserIds: ["user-1", "user-2"],
